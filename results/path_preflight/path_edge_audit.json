@@ -1,0 +1,27 @@
+{
+  "queries": [
+    {
+      "query_id": "QUERY_1",
+      "path_count": 10,
+      "path_edge_count": 50,
+      "path_edge_not_in_train": 0,
+      "path_continuity_failures": 0,
+      "path_endpoint_failures": 0,
+      "path_hop_limit_failures": 0
+    },
+    {
+      "query_id": "QUERY_2",
+      "path_count": 10,
+      "path_edge_count": 48,
+      "path_edge_not_in_train": 0,
+      "path_continuity_failures": 0,
+      "path_endpoint_failures": 0,
+      "path_hop_limit_failures": 0
+    }
+  ],
+  "path_edge_count": 98,
+  "path_edge_not_in_train": 0,
+  "path_continuity_failures": 0,
+  "path_endpoint_failures": 0,
+  "path_hop_limit_failures": 0
+}

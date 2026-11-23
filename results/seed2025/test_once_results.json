@@ -1,0 +1,87 @@
+{
+  "version": "0.2.1-final",
+  "status": "PASS_RCDGATE_TEST_ONCE_COMPLETE",
+  "seed": 2025,
+  "checkpoint_selected_by": "validation ADR-only filtered MRR only",
+  "checkpoint_epoch": 10,
+  "checkpoint_valid_MRR": 0.6493826696502404,
+  "checkpoint_path": "/root/adr_path_reasoning_project/output/PVKG_811_CauseTailADR/MultiSeed_v1/RCDGate/seed2025/best_valid_adr_mrr.pth",
+  "checkpoint_sha256_before": "8092767a7375ad8c2e73b065d3a23258eb92ff397cebde8b1cc8b387e854dfea",
+  "checkpoint_sha256_after": "8092767a7375ad8c2e73b065d3a23258eb92ff397cebde8b1cc8b387e854dfea",
+  "checkpoint_unchanged": true,
+  "model_state_sha256_before": "a067972f37158c0136ddd9e374567b7929b8ad1571b118218fd59da80871e7cf",
+  "model_state_sha256_after": "a067972f37158c0136ddd9e374567b7929b8ad1571b118218fd59da80871e7cf",
+  "model_state_unchanged": true,
+  "checkpoint_load_strict": true,
+  "parameter_count": 103622,
+  "optimizer_created": false,
+  "training_performed": false,
+  "test_split_loaded": true,
+  "test_evaluated": true,
+  "test_evaluation_count": 1,
+  "all_true_usage": "filtered test ranking only",
+  "graph_edges_from": "train_id.txt plus automatic inverse edges",
+  "metrics": {
+    "MR": 33.69124797406807,
+    "MRR": 0.6509623906664731,
+    "Hits@1": 0.5554294975688817,
+    "Hits@3": 0.7163695299837926,
+    "Hits@10": 0.8173419773095624,
+    "evaluated_triples": 6170,
+    "test_unique_heads": 3581,
+    "adr_candidate_count": 1460,
+    "filtered_candidates": 88533,
+    "evaluation_seconds": 18.22837905958295,
+    "all_scores_finite": true,
+    "tie_policy": "optimistic",
+    "candidate_scope": "ADR-only tail ranking",
+    "layerwise_gate_value_statistics": [
+      {
+        "count": 458752,
+        "mean": 1.249991536140442,
+        "std": 1.0446866838265123e-07,
+        "minimum": 1.249991536140442,
+        "maximum": 1.249999761581421,
+        "compatibility_term_mean": 0.0,
+        "compatibility_term_std": 0.0
+      },
+      {
+        "count": 458752,
+        "mean": 0.7754858732223511,
+        "std": 0.0073008788749575615,
+        "minimum": 0.7717852592468262,
+        "maximum": 1.25,
+        "compatibility_term_mean": -0.21143586933612823,
+        "compatibility_term_std": 0.0805797204375267
+      },
+      {
+        "count": 458752,
+        "mean": 0.7842346429824829,
+        "std": 0.020120060071349144,
+        "minimum": 0.75,
+        "maximum": 1.249992847442627,
+        "compatibility_term_mean": -0.34119948744773865,
+        "compatibility_term_std": 0.20130003988742828
+      },
+      {
+        "count": 458752,
+        "mean": 0.7874862551689148,
+        "std": 0.04139547049999237,
+        "minimum": 0.7515546083450317,
+        "maximum": 1.249999761581421,
+        "compatibility_term_mean": -0.06027473881840706,
+        "compatibility_term_std": 0.19018270075321198
+      },
+      {
+        "count": 458752,
+        "mean": 0.7863587737083435,
+        "std": 0.04729084670543671,
+        "minimum": 0.7500548958778381,
+        "maximum": 1.25,
+        "compatibility_term_mean": -0.35706081986427307,
+        "compatibility_term_std": 0.2661689519882202
+      }
+    ]
+  },
+  "peak_cuda_memory_bytes": 1784828928
+}

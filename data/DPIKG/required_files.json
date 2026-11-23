@@ -1,0 +1,18 @@
+{
+  "required": [
+    "entity2id.json",
+    "relation2id.json",
+    "adr_ids.txt",
+    "train_id.txt",
+    "valid_id.txt",
+    "test_id.txt",
+    "all_true_triples.txt"
+  ],
+  "recommended": [
+    "dataset_stats.json",
+    "conversion_report.json"
+  ],
+  "status": "PRESENT: verified against paper provenance hashes and snapshot metadata",
+  "local_source_zip": "PVKG_811_CauseTailADR_for_BioPathNet_Stage0.zip",
+  "data_directory": "data/DPIKG"
+}

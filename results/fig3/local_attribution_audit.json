@@ -1,0 +1,174 @@
+{
+  "gates": {
+    "CHECKPOINT_MATCH": true,
+    "DISPLAY_EDGE_ALSO_IN_VALID_OR_TEST_COUNT": 0,
+    "DISPLAY_EDGE_K": 8,
+    "DISPLAY_EDGE_NOT_IN_TRAIN_COUNT": 0,
+    "DISPLAY_VALID_TEST_ONLY_EDGE_COUNT": 0,
+    "EDGE_GRADIENT_RECOVERED": true,
+    "MANUAL_SEMANTIC_EDGE_SELECTION_USED": false,
+    "MODEL_PARAMETERS_UNCHANGED": true,
+    "MODEL_PARAMETER_GRADS_CLEAR": true,
+    "READY_FOR_FIG3_LOCAL_ATTRIBUTED_SUBGRAPH": true,
+    "REPRESENTATIVE_PATH_EDGE_GRADIENT_RECOVERED": true,
+    "TOP10_PATH_SCORE_RECONSTRUCTION_PASS": true,
+    "TRAIN_ONLY_REASONING_GRAPH": true
+  },
+  "gradient_stats": {
+    "Q04": {
+      "finite_count": 651480,
+      "max": 0.8021910786628723,
+      "mean": 1.1940695668765879e-05,
+      "min": -1.106451153755188,
+      "nan_count": 0,
+      "negative_count": 78432,
+      "normal_score": 2.1066513061523438,
+      "path_mode_score": 2.10665225982666,
+      "positive_count": 104831,
+      "shape": [
+        5,
+        130296
+      ],
+      "zero_count": 468217
+    },
+    "Q11": {
+      "finite_count": 651480,
+      "max": 1.79139244556427,
+      "mean": 1.1650401867785672e-05,
+      "min": -1.0561397075653076,
+      "nan_count": 0,
+      "negative_count": 116917,
+      "normal_score": 3.0277583599090576,
+      "path_mode_score": 3.0277652740478516,
+      "positive_count": 107641,
+      "shape": [
+        5,
+        130296
+      ],
+      "zero_count": 426922
+    },
+    "Q12": {
+      "finite_count": 651480,
+      "max": 2.070667028427124,
+      "mean": 1.2172708196792252e-05,
+      "min": -1.2333911657333374,
+      "nan_count": 0,
+      "negative_count": 106340,
+      "normal_score": 2.5328729152679443,
+      "path_mode_score": 2.532874584197998,
+      "positive_count": 94917,
+      "shape": [
+        5,
+        130296
+      ],
+      "zero_count": 450223
+    }
+  },
+  "graph": {
+    "directed_reasoning_edges": 130296,
+    "duplicate_directed_triple_types": 0,
+    "leakage_audit": {
+      "test_edges_in_reasoning_graph": 0,
+      "test_file": "/root/adr_path_reasoning_project/data/nbfnet/PVKG_811_CauseTailADR/test_id.txt",
+      "test_triple_count": 6170,
+      "valid_edges_in_reasoning_graph": 0,
+      "valid_file": "/root/adr_path_reasoning_project/data/nbfnet/PVKG_811_CauseTailADR/valid_id.txt",
+      "valid_triple_count": 6170
+    },
+    "num_forward_relations": 3,
+    "split_layouts": {
+      "test": "HRT",
+      "train": "HRT",
+      "valid": "HRT"
+    },
+    "train_forward_triples": 65148,
+    "unique_directed_triples": 130296
+  },
+  "local_subgraphs": {
+    "Q04": {
+      "display_edges_also_in_valid_or_test_count": 0,
+      "display_non_train_edge_count": 0,
+      "display_valid_test_only_edge_count": 0,
+      "extra_selected_count": 5,
+      "final_display_edge_count": 8,
+      "local_incident_reasoning_edge_count": 1506,
+      "positive_extra_candidate_count": 1253,
+      "representative_path_edges": 3,
+      "representative_path_nodes": 4,
+      "representative_path_rank": 1
+    },
+    "Q11": {
+      "display_edges_also_in_valid_or_test_count": 0,
+      "display_non_train_edge_count": 0,
+      "display_valid_test_only_edge_count": 0,
+      "extra_selected_count": 5,
+      "final_display_edge_count": 8,
+      "local_incident_reasoning_edge_count": 3610,
+      "positive_extra_candidate_count": 3057,
+      "representative_path_edges": 3,
+      "representative_path_nodes": 4,
+      "representative_path_rank": 1
+    },
+    "Q12": {
+      "display_edges_also_in_valid_or_test_count": 0,
+      "display_non_train_edge_count": 0,
+      "display_valid_test_only_edge_count": 0,
+      "extra_selected_count": 5,
+      "final_display_edge_count": 8,
+      "local_incident_reasoning_edge_count": 2084,
+      "positive_extra_candidate_count": 1772,
+      "representative_path_edges": 3,
+      "representative_path_nodes": 4,
+      "representative_path_rank": 3
+    }
+  },
+  "parameter_integrity": {
+    "model_parameter_grads_clear": true,
+    "model_parameters_unchanged": true,
+    "model_state_sha256_after": "eb522e1627eb349e738b3a23a47565ae8956f69ba07bbf01a76ef35d33c7b818",
+    "model_state_sha256_before": "eb522e1627eb349e738b3a23a47565ae8956f69ba07bbf01a76ef35d33c7b818",
+    "optimizer_created": false,
+    "parameter_update": false,
+    "training_performed": false
+  },
+  "path_method": "SIGNED_EDGE_GRADIENT_BEAM_AVERAGE_LENGTH",
+  "path_reconstruction": {
+    "max_absolute_difference": 1.3059470804765994e-07,
+    "pass": true,
+    "tolerance": 1e-05
+  },
+  "provenance": {
+    "checkpoint": "/root/adr_path_reasoning_project/output/PVKG_811_CauseTailADR/NBFNet-RCDGate-HParam/layers5_lr001_gate025_seed42_v0.2.1/best_valid_adr_mrr.pth",
+    "checkpoint_audit": {
+      "checkpoint_epoch": 7,
+      "checkpoint_match": true,
+      "checkpoint_sha256": "7e99b13d90f0c0fbff42304eaa92ae4e35316034bec7847c71dcc4dc0e568e08",
+      "checkpoint_valid_MRR": 0.6493918835350233,
+      "device": "cuda",
+      "parameter_count": 103622,
+      "strict_load": "ALL_KEYS_MATCHED"
+    },
+    "checkpoint_sha256": "7e99b13d90f0c0fbff42304eaa92ae4e35316034bec7847c71dcc4dc0e568e08",
+    "config": "/root/adr_path_reasoning_project/output/PVKG_811_CauseTailADR/NBFNet-RCDGate-HParam/layers5_lr001_gate025_seed42_v0.2.1/config_snapshot.yaml",
+    "config_sha256": "1b7f2b6701b4a85a46586558627c3a05593aaf0e4dcdb905728f39f84265be6c",
+    "existing_path_export_has_edge_gradient": false,
+    "frozen_path_dir": "/root/adr_path_reasoning_project/output/PVKG_811_CauseTailADR/NBFNet-RCDGate-Path/stage3a1_12pair_seed42_v0.2.1",
+    "model_parameter_count": 103622
+  },
+  "selection_rule": {
+    "DISPLAY_EDGE_K": 8,
+    "aggregate_signed_edge_attribution": "sum of the same directed edge's signed gradients over layers 1..5",
+    "extra_candidate_scope": "one-hop directed train reasoning edges incident to any representative-path node",
+    "extra_filter": "aggregate_signed_edge_attribution > 0",
+    "extra_sort": [
+      "aggregate_signed_edge_attribution descending",
+      "source_id ascending",
+      "relation_id ascending",
+      "target_id ascending"
+    ],
+    "manual_semantic_edge_selection_used": false,
+    "representative_path_edges": "forced"
+  },
+  "status": "PASS",
+  "version": "0.1.0"
+}

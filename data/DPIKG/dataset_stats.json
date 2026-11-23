@@ -1,0 +1,26 @@
+{
+  "num_entities": 13021,
+  "num_relations": 3,
+  "num_train_triples": 65148,
+  "num_valid_triples": 6170,
+  "num_test_triples": 6170,
+  "num_all_true_triples": 77488,
+  "relation_distribution_train": {
+    "包含": 13952,
+    "引起": 49355,
+    "累及": 1841
+  },
+  "relation_distribution_valid": {
+    "引起": 6170
+  },
+  "relation_distribution_test": {
+    "引起": 6170
+  },
+  "valid_only_target_relation": true,
+  "test_only_target_relation": true,
+  "num_adrs": 1460,
+  "num_drugs": 7881,
+  "num_ingredients": 3651,
+  "num_organs": 29,
+  "output_dir": "D:\\adr_path_reasoning_project_full\\adr_path_reasoning_project\\data\\nbfnet\\PVKG_811_CauseTailADR"
+}

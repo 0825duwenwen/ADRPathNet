@@ -1,0 +1,16 @@
+{
+  "graph_source": "EXPLICIT_FROZEN_TRAIN_SPLIT",
+  "processed_data_pt_used": false,
+  "train_file": "/root/adr_path_reasoning_project/data/nbfnet/PVKG_811_CauseTailADR/train_id.txt",
+  "train_forward_triples": 65148,
+  "train_graph_edges_with_inverse": 130296,
+  "num_nodes": 13021,
+  "num_forward_relations": 3,
+  "inverse_relation_encoding": "inverse_id = forward_id + num_forward_relations",
+  "valid_file": "/root/adr_path_reasoning_project/data/nbfnet/PVKG_811_CauseTailADR/valid_id.txt",
+  "valid_triple_count": 6170,
+  "valid_edges_in_reasoning_graph": 0,
+  "test_file": "/root/adr_path_reasoning_project/data/nbfnet/PVKG_811_CauseTailADR/test_id.txt",
+  "test_triple_count": 6170,
+  "test_edges_in_reasoning_graph": 0
+}

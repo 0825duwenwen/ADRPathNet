@@ -1,0 +1,73 @@
+{
+  "method": "signed local edge gradient -> beam search -> average path score",
+  "model_state_sha256_before": "eb522e1627eb349e738b3a23a47565ae8956f69ba07bbf01a76ef35d33c7b818",
+  "model_state_sha256_after": "eb522e1627eb349e738b3a23a47565ae8956f69ba07bbf01a76ef35d33c7b818",
+  "model_parameter_changed": false,
+  "parameter_gradients_populated": false,
+  "queries": [
+    {
+      "query_id": "QUERY_1",
+      "edge_weight_audit": {
+        "layer_count": 5,
+        "all_requires_grad": true,
+        "all_leaf": true,
+        "all_grad_fn_none": true,
+        "all_storage_pointers_distinct": true,
+        "mutation_isolated": true,
+        "versions_before": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "autograd_independent": true
+      },
+      "all_edge_gradients_finite": true,
+      "gate_gradient_reachable": true,
+      "gate_gradient_finite": true,
+      "finite_difference": {
+        "layer_index": 0,
+        "edge_index": 60483,
+        "epsilon": 0.001,
+        "autograd_directional_derivative": -0.09891853481531143,
+        "finite_difference_directional_derivative": -0.0991821214556694,
+        "absolute_error": 0.0002635866403579712,
+        "tolerance": 0.00995910607278347,
+        "passed": true
+      }
+    },
+    {
+      "query_id": "QUERY_2",
+      "edge_weight_audit": {
+        "layer_count": 5,
+        "all_requires_grad": true,
+        "all_leaf": true,
+        "all_grad_fn_none": true,
+        "all_storage_pointers_distinct": true,
+        "mutation_isolated": true,
+        "versions_before": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "autograd_independent": true
+      },
+      "all_edge_gradients_finite": true,
+      "gate_gradient_reachable": true,
+      "gate_gradient_finite": true,
+      "finite_difference": {
+        "layer_index": 0,
+        "edge_index": 56209,
+        "epsilon": 0.001,
+        "autograd_directional_derivative": -0.05447597801685333,
+        "finite_difference_directional_derivative": -0.05328654870390892,
+        "absolute_error": 0.0011894293129444122,
+        "tolerance": 0.007664327435195446,
+        "passed": true
+      }
+    }
+  ]
+}

@@ -1,0 +1,115 @@
+{
+  "manifest_version": "0.2.0",
+  "frozen": true,
+  "selection_policy": "top-2 KG-unobserved predictions per drug, frozen before external validation",
+  "queries": [
+    {
+      "query_id": "Q01",
+      "drug_display": "氟罗沙星注射液",
+      "head_entity": "药品_氟罗沙星注射液",
+      "relation": "引起",
+      "adr_display": "皮炎",
+      "tail_entity": "不良反应_皮炎",
+      "discovery_rank": 4
+    },
+    {
+      "query_id": "Q02",
+      "drug_display": "氟罗沙星注射液",
+      "head_entity": "药品_氟罗沙星注射液",
+      "relation": "引起",
+      "adr_display": "胃肠道反应",
+      "tail_entity": "不良反应_胃肠道反应",
+      "discovery_rank": 7
+    },
+    {
+      "query_id": "Q03",
+      "drug_display": "盐酸左氧氟沙星胶囊",
+      "head_entity": "药品_盐酸左氧氟沙星胶囊",
+      "relation": "引起",
+      "adr_display": "腹胀",
+      "tail_entity": "不良反应_腹胀",
+      "discovery_rank": 2
+    },
+    {
+      "query_id": "Q04",
+      "drug_display": "盐酸左氧氟沙星胶囊",
+      "head_entity": "药品_盐酸左氧氟沙星胶囊",
+      "relation": "引起",
+      "adr_display": "过敏反应",
+      "tail_entity": "不良反应_过敏反应",
+      "discovery_rank": 4
+    },
+    {
+      "query_id": "Q05",
+      "drug_display": "诺氟沙星葡萄糖注射液",
+      "head_entity": "药品_诺氟沙星葡萄糖注射液",
+      "relation": "引起",
+      "adr_display": "静脉炎",
+      "tail_entity": "不良反应_静脉炎",
+      "discovery_rank": 7
+    },
+    {
+      "query_id": "Q06",
+      "drug_display": "诺氟沙星葡萄糖注射液",
+      "head_entity": "药品_诺氟沙星葡萄糖注射液",
+      "relation": "引起",
+      "adr_display": "呼吸肌无力",
+      "tail_entity": "不良反应_呼吸肌无力",
+      "discovery_rank": 8
+    },
+    {
+      "query_id": "Q07",
+      "drug_display": "甲磺酸培氟沙星注射液",
+      "head_entity": "药品_甲磺酸培氟沙星注射液",
+      "relation": "引起",
+      "adr_display": "癫痫发作",
+      "tail_entity": "不良反应_癫痫发作",
+      "discovery_rank": 2
+    },
+    {
+      "query_id": "Q08",
+      "drug_display": "甲磺酸培氟沙星注射液",
+      "head_entity": "药品_甲磺酸培氟沙星注射液",
+      "relation": "引起",
+      "adr_display": "疼痛",
+      "tail_entity": "不良反应_疼痛",
+      "discovery_rank": 3
+    },
+    {
+      "query_id": "Q09",
+      "drug_display": "加替沙星胶囊",
+      "head_entity": "药品_加替沙星胶囊",
+      "relation": "引起",
+      "adr_display": "周围性水肿",
+      "tail_entity": "不良反应_周围性水肿",
+      "discovery_rank": 1
+    },
+    {
+      "query_id": "Q10",
+      "drug_display": "加替沙星胶囊",
+      "head_entity": "药品_加替沙星胶囊",
+      "relation": "引起",
+      "adr_display": "多梦",
+      "tail_entity": "不良反应_多梦",
+      "discovery_rank": 2
+    },
+    {
+      "query_id": "Q11",
+      "drug_display": "盐酸环丙沙星片",
+      "head_entity": "药品_盐酸环丙沙星片",
+      "relation": "引起",
+      "adr_display": "皮疹",
+      "tail_entity": "不良反应_皮疹",
+      "discovery_rank": 3
+    },
+    {
+      "query_id": "Q12",
+      "drug_display": "盐酸环丙沙星片",
+      "head_entity": "药品_盐酸环丙沙星片",
+      "relation": "引起",
+      "adr_display": "瘙痒",
+      "tail_entity": "不良反应_瘙痒",
+      "discovery_rank": 4
+    }
+  ]
+}

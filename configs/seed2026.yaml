@@ -1,0 +1,36 @@
+version: 0.2.1
+experiment:
+  name: NBFNet-RCDGate-HParam
+  type: validation_only_hyperparameter_search
+seed: 2026
+model:
+  input_dim: 32
+  hidden_dims:
+  - 32
+  - 32
+  - 32
+  - 32
+  - 32
+  num_relation: 6
+  message_func: distmult
+  aggregate_func: pna
+  short_cut: true
+  layer_norm: true
+  dependent: true
+  relation_gate_scale: 0.25
+train:
+  epochs: 10
+  batch_size: 16
+  num_negative: 16
+  strict_negative: true
+  adr_negative_sampling: true
+  adversarial_temperature: 1.0
+optimizer:
+  learning_rate: 0.001
+  class: Adam
+validation:
+  batch_size: 16
+  candidate_scope: ADR-only
+  filtered: true
+  tie_policy: optimistic
+test_access: locked

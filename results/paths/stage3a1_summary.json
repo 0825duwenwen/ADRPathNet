@@ -1,0 +1,511 @@
+{
+  "QUERY_COUNT": 12,
+  "QUERY_RESOLVED_COUNT": 12,
+  "CHECKPOINT_SHA256": "7e99b13d90f0c0fbff42304eaa92ae4e35316034bec7847c71dcc4dc0e568e08",
+  "CHECKPOINT_MATCH": true,
+  "STRICT_LOAD": "ALL_KEYS_MATCHED",
+  "PARAMETER_COUNT": 103622,
+  "TRAIN_FORWARD_TRIPLES": 65148,
+  "TRAIN_GRAPH_EDGES_WITH_INVERSE": 130296,
+  "EDGE_WEIGHT_LAYER_COUNT": 5,
+  "ALL_EDGE_WEIGHTS_LEAF": true,
+  "EDGE_WEIGHT_AUTOGRAD_INDEPENDENT": true,
+  "TOTAL_PATH_COUNT": 120,
+  "POSITIVE_PATH_COUNT": 120,
+  "NEGATIVE_PATH_COUNT": 0,
+  "ZERO_PATH_COUNT": 0,
+  "QUERY_WITH_PATH_COUNT": 12,
+  "QUERY_WITHOUT_PATH_COUNT": 0,
+  "PATH_EDGE_COUNT": 594,
+  "PATH_EDGE_NOT_IN_TRAIN": 0,
+  "BROKEN_PATH_COUNT": 0,
+  "WRONG_START_COUNT": 0,
+  "WRONG_END_COUNT": 0,
+  "OVER_DEPTH_PATH_COUNT": 0,
+  "VALID_EDGES_IN_REASONING_GRAPH": 0,
+  "TEST_EDGES_IN_REASONING_GRAPH": 0,
+  "SCORE_INVARIANCE_TOLERANCE": 1e-05,
+  "MAX_ABS_SCORE_DIFF": 4.76837158203125e-06,
+  "ALL_SCORE_DIFF_WITHIN_TOLERANCE": true,
+  "MODEL_PARAMETER_CHANGED": false,
+  "PATH_METHOD": "SIGNED_EDGE_GRADIENT_BEAM_AVERAGE_LENGTH",
+  "PATH_GRADIENT_PASSES_RCDGATE": true,
+  "OUTPUT_DIR": "/root/adr_path_reasoning_project/output/PVKG_811_CauseTailADR/NBFNet-RCDGate-Path/stage3a1_12pair_seed42_v0.2.1",
+  "STAGE_3A1_STATUS": "PASS",
+  "READY_FOR_PATH_CASE_SELECTION": true,
+  "num_beam": 10,
+  "path_topk": 10,
+  "checks": {
+    "preflight_gate": true,
+    "query_count": true,
+    "query_resolved_count": true,
+    "checkpoint_match": true,
+    "strict_load": true,
+    "parameter_count": true,
+    "train_forward_count": true,
+    "train_directed_count": true,
+    "five_layers": true,
+    "path_topk_frozen": true,
+    "edge_weights_leaf": true,
+    "edge_weights_independent": true,
+    "score_tolerance": true,
+    "path_edge_membership": true,
+    "path_continuity": true,
+    "path_start": true,
+    "path_end": true,
+    "path_depth": true,
+    "valid_leakage": true,
+    "test_leakage": true,
+    "parameters_unchanged": true,
+    "parameter_grads_clear": true,
+    "gradient_passes_rcdgate": true
+  },
+  "query_summary": [
+    {
+      "query_id": "Q01",
+      "drug": "氟罗沙星注射液",
+      "ADR": "皮炎",
+      "discovery_rank": 4,
+      "model_score": 2.2726969718933105,
+      "normal_score": 2.2726969718933105,
+      "path_mode_score": 2.272697687149048,
+      "abs_score_diff": 7.152557373046875e-07,
+      "path_count": 10,
+      "positive_path_count": 10,
+      "negative_path_count": 0,
+      "zero_path_count": 0,
+      "best_path_score": 0.40599966049194336
+    },
+    {
+      "query_id": "Q02",
+      "drug": "氟罗沙星注射液",
+      "ADR": "胃肠道反应",
+      "discovery_rank": 7,
+      "model_score": 1.1561213731765747,
+      "normal_score": 1.1561213731765747,
+      "path_mode_score": 1.1561261415481567,
+      "abs_score_diff": 4.76837158203125e-06,
+      "path_count": 10,
+      "positive_path_count": 10,
+      "negative_path_count": 0,
+      "zero_path_count": 0,
+      "best_path_score": 0.49119930267333983
+    },
+    {
+      "query_id": "Q03",
+      "drug": "盐酸左氧氟沙星胶囊",
+      "ADR": "腹胀",
+      "discovery_rank": 2,
+      "model_score": 2.408376455307007,
+      "normal_score": 2.408376455307007,
+      "path_mode_score": 2.408376455307007,
+      "abs_score_diff": 0.0,
+      "path_count": 10,
+      "positive_path_count": 10,
+      "negative_path_count": 0,
+      "zero_path_count": 0,
+      "best_path_score": 0.22280240058898926
+    },
+    {
+      "query_id": "Q04",
+      "drug": "盐酸左氧氟沙星胶囊",
+      "ADR": "过敏反应",
+      "discovery_rank": 4,
+      "model_score": 2.106653928756714,
+      "normal_score": 2.106653928756714,
+      "path_mode_score": 2.106656312942505,
+      "abs_score_diff": 2.384185791015625e-06,
+      "path_count": 10,
+      "positive_path_count": 10,
+      "negative_path_count": 0,
+      "zero_path_count": 0,
+      "best_path_score": 0.2960251172383626
+    },
+    {
+      "query_id": "Q05",
+      "drug": "诺氟沙星葡萄糖注射液",
+      "ADR": "静脉炎",
+      "discovery_rank": 7,
+      "model_score": 1.2249430418014526,
+      "normal_score": 1.2249430418014526,
+      "path_mode_score": 1.2249414920806885,
+      "abs_score_diff": 1.5497207641601562e-06,
+      "path_count": 10,
+      "positive_path_count": 10,
+      "negative_path_count": 0,
+      "zero_path_count": 0,
+      "best_path_score": 0.5302775382995606
+    },
+    {
+      "query_id": "Q06",
+      "drug": "诺氟沙星葡萄糖注射液",
+      "ADR": "呼吸肌无力",
+      "discovery_rank": 8,
+      "model_score": 0.2051549255847931,
+      "normal_score": 0.2051549255847931,
+      "path_mode_score": 0.20515495538711548,
+      "abs_score_diff": 2.9802322387695312e-08,
+      "path_count": 10,
+      "positive_path_count": 10,
+      "negative_path_count": 0,
+      "zero_path_count": 0,
+      "best_path_score": 0.4976482391357422
+    },
+    {
+      "query_id": "Q07",
+      "drug": "甲磺酸培氟沙星注射液",
+      "ADR": "癫痫发作",
+      "discovery_rank": 2,
+      "model_score": 2.6697561740875244,
+      "normal_score": 2.6697561740875244,
+      "path_mode_score": 2.6697561740875244,
+      "abs_score_diff": 0.0,
+      "path_count": 10,
+      "positive_path_count": 10,
+      "negative_path_count": 0,
+      "zero_path_count": 0,
+      "best_path_score": 0.26412153244018555
+    },
+    {
+      "query_id": "Q08",
+      "drug": "甲磺酸培氟沙星注射液",
+      "ADR": "疼痛",
+      "discovery_rank": 3,
+      "model_score": 2.3434107303619385,
+      "normal_score": 2.3434107303619385,
+      "path_mode_score": 2.343412399291992,
+      "abs_score_diff": 1.6689300537109375e-06,
+      "path_count": 10,
+      "positive_path_count": 10,
+      "negative_path_count": 0,
+      "zero_path_count": 0,
+      "best_path_score": 0.3432785511016846
+    },
+    {
+      "query_id": "Q09",
+      "drug": "加替沙星胶囊",
+      "ADR": "周围性水肿",
+      "discovery_rank": 1,
+      "model_score": 2.19791579246521,
+      "normal_score": 2.19791579246521,
+      "path_mode_score": 2.197916269302368,
+      "abs_score_diff": 4.76837158203125e-07,
+      "path_count": 10,
+      "positive_path_count": 10,
+      "negative_path_count": 0,
+      "zero_path_count": 0,
+      "best_path_score": 1.041249942779541
+    },
+    {
+      "query_id": "Q10",
+      "drug": "加替沙星胶囊",
+      "ADR": "多梦",
+      "discovery_rank": 2,
+      "model_score": 1.9525361061096191,
+      "normal_score": 1.9525361061096191,
+      "path_mode_score": 1.952537178993225,
+      "abs_score_diff": 1.0728836059570312e-06,
+      "path_count": 10,
+      "positive_path_count": 10,
+      "negative_path_count": 0,
+      "zero_path_count": 0,
+      "best_path_score": 1.0049946784973145
+    },
+    {
+      "query_id": "Q11",
+      "drug": "盐酸环丙沙星片",
+      "ADR": "皮疹",
+      "discovery_rank": 3,
+      "model_score": 3.027766466140747,
+      "normal_score": 3.027766466140747,
+      "path_mode_score": 3.0277655124664307,
+      "abs_score_diff": 9.5367431640625e-07,
+      "path_count": 10,
+      "positive_path_count": 10,
+      "negative_path_count": 0,
+      "zero_path_count": 0,
+      "best_path_score": 0.4418847958246867
+    },
+    {
+      "query_id": "Q12",
+      "drug": "盐酸环丙沙星片",
+      "ADR": "瘙痒",
+      "discovery_rank": 4,
+      "model_score": 2.532874345779419,
+      "normal_score": 2.532874345779419,
+      "path_mode_score": 2.5328757762908936,
+      "abs_score_diff": 1.430511474609375e-06,
+      "path_count": 10,
+      "positive_path_count": 10,
+      "negative_path_count": 0,
+      "zero_path_count": 0,
+      "best_path_score": 0.4762882709503174
+    }
+  ],
+  "gradient_audits": [
+    {
+      "query_id": "Q01",
+      "edge_weight_audit": {
+        "layer_count": 5,
+        "all_requires_grad": true,
+        "all_leaf": true,
+        "all_grad_fn_none": true,
+        "all_storage_pointers_distinct": true,
+        "mutation_isolated": true,
+        "versions_before": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "autograd_independent": true
+      },
+      "all_edge_gradients_finite": true,
+      "gate_gradient_reachable": true,
+      "gate_gradient_finite": true
+    },
+    {
+      "query_id": "Q02",
+      "edge_weight_audit": {
+        "layer_count": 5,
+        "all_requires_grad": true,
+        "all_leaf": true,
+        "all_grad_fn_none": true,
+        "all_storage_pointers_distinct": true,
+        "mutation_isolated": true,
+        "versions_before": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "autograd_independent": true
+      },
+      "all_edge_gradients_finite": true,
+      "gate_gradient_reachable": true,
+      "gate_gradient_finite": true
+    },
+    {
+      "query_id": "Q03",
+      "edge_weight_audit": {
+        "layer_count": 5,
+        "all_requires_grad": true,
+        "all_leaf": true,
+        "all_grad_fn_none": true,
+        "all_storage_pointers_distinct": true,
+        "mutation_isolated": true,
+        "versions_before": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "autograd_independent": true
+      },
+      "all_edge_gradients_finite": true,
+      "gate_gradient_reachable": true,
+      "gate_gradient_finite": true
+    },
+    {
+      "query_id": "Q04",
+      "edge_weight_audit": {
+        "layer_count": 5,
+        "all_requires_grad": true,
+        "all_leaf": true,
+        "all_grad_fn_none": true,
+        "all_storage_pointers_distinct": true,
+        "mutation_isolated": true,
+        "versions_before": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "autograd_independent": true
+      },
+      "all_edge_gradients_finite": true,
+      "gate_gradient_reachable": true,
+      "gate_gradient_finite": true
+    },
+    {
+      "query_id": "Q05",
+      "edge_weight_audit": {
+        "layer_count": 5,
+        "all_requires_grad": true,
+        "all_leaf": true,
+        "all_grad_fn_none": true,
+        "all_storage_pointers_distinct": true,
+        "mutation_isolated": true,
+        "versions_before": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "autograd_independent": true
+      },
+      "all_edge_gradients_finite": true,
+      "gate_gradient_reachable": true,
+      "gate_gradient_finite": true
+    },
+    {
+      "query_id": "Q06",
+      "edge_weight_audit": {
+        "layer_count": 5,
+        "all_requires_grad": true,
+        "all_leaf": true,
+        "all_grad_fn_none": true,
+        "all_storage_pointers_distinct": true,
+        "mutation_isolated": true,
+        "versions_before": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "autograd_independent": true
+      },
+      "all_edge_gradients_finite": true,
+      "gate_gradient_reachable": true,
+      "gate_gradient_finite": true
+    },
+    {
+      "query_id": "Q07",
+      "edge_weight_audit": {
+        "layer_count": 5,
+        "all_requires_grad": true,
+        "all_leaf": true,
+        "all_grad_fn_none": true,
+        "all_storage_pointers_distinct": true,
+        "mutation_isolated": true,
+        "versions_before": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "autograd_independent": true
+      },
+      "all_edge_gradients_finite": true,
+      "gate_gradient_reachable": true,
+      "gate_gradient_finite": true
+    },
+    {
+      "query_id": "Q08",
+      "edge_weight_audit": {
+        "layer_count": 5,
+        "all_requires_grad": true,
+        "all_leaf": true,
+        "all_grad_fn_none": true,
+        "all_storage_pointers_distinct": true,
+        "mutation_isolated": true,
+        "versions_before": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "autograd_independent": true
+      },
+      "all_edge_gradients_finite": true,
+      "gate_gradient_reachable": true,
+      "gate_gradient_finite": true
+    },
+    {
+      "query_id": "Q09",
+      "edge_weight_audit": {
+        "layer_count": 5,
+        "all_requires_grad": true,
+        "all_leaf": true,
+        "all_grad_fn_none": true,
+        "all_storage_pointers_distinct": true,
+        "mutation_isolated": true,
+        "versions_before": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "autograd_independent": true
+      },
+      "all_edge_gradients_finite": true,
+      "gate_gradient_reachable": true,
+      "gate_gradient_finite": true
+    },
+    {
+      "query_id": "Q10",
+      "edge_weight_audit": {
+        "layer_count": 5,
+        "all_requires_grad": true,
+        "all_leaf": true,
+        "all_grad_fn_none": true,
+        "all_storage_pointers_distinct": true,
+        "mutation_isolated": true,
+        "versions_before": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "autograd_independent": true
+      },
+      "all_edge_gradients_finite": true,
+      "gate_gradient_reachable": true,
+      "gate_gradient_finite": true
+    },
+    {
+      "query_id": "Q11",
+      "edge_weight_audit": {
+        "layer_count": 5,
+        "all_requires_grad": true,
+        "all_leaf": true,
+        "all_grad_fn_none": true,
+        "all_storage_pointers_distinct": true,
+        "mutation_isolated": true,
+        "versions_before": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "autograd_independent": true
+      },
+      "all_edge_gradients_finite": true,
+      "gate_gradient_reachable": true,
+      "gate_gradient_finite": true
+    },
+    {
+      "query_id": "Q12",
+      "edge_weight_audit": {
+        "layer_count": 5,
+        "all_requires_grad": true,
+        "all_leaf": true,
+        "all_grad_fn_none": true,
+        "all_storage_pointers_distinct": true,
+        "mutation_isolated": true,
+        "versions_before": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "autograd_independent": true
+      },
+      "all_edge_gradients_finite": true,
+      "gate_gradient_reachable": true,
+      "gate_gradient_finite": true
+    }
+  ]
+}

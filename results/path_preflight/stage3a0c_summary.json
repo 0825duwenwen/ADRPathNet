@@ -1,0 +1,62 @@
+{
+  "CHECKPOINT_SHA256": "7e99b13d90f0c0fbff42304eaa92ae4e35316034bec7847c71dcc4dc0e568e08",
+  "CHECKPOINT_MATCH": true,
+  "STRICT_LOAD": "ALL_KEYS_MATCHED",
+  "PARAMETER_COUNT": 103622,
+  "TRAIN_FORWARD_TRIPLES": 65148,
+  "TRAIN_GRAPH_EDGES_WITH_INVERSE": 130296,
+  "EDGE_WEIGHT_LAYER_COUNT": 5,
+  "ALL_EDGE_WEIGHTS_LEAF": true,
+  "EDGE_WEIGHT_AUTOGRAD_INDEPENDENT": true,
+  "queries": [
+    {
+      "query_id": "QUERY_1",
+      "drug_name": "药品_盐酸左氧氟沙星胶囊",
+      "adr_name": "不良反应_腹胀",
+      "normal_score": 2.4083750247955322,
+      "path_mode_score": 2.4083759784698486,
+      "abs_score_diff": 9.5367431640625e-07,
+      "path_count": 10
+    },
+    {
+      "query_id": "QUERY_2",
+      "drug_name": "药品_盐酸环丙沙星片",
+      "adr_name": "不良反应_瘙痒",
+      "normal_score": 2.5328755378723145,
+      "path_mode_score": 2.532876491546631,
+      "abs_score_diff": 9.5367431640625e-07,
+      "path_count": 10
+    }
+  ],
+  "PATH_EDGE_COUNT": 98,
+  "PATH_EDGE_NOT_IN_TRAIN": 0,
+  "VALID_EDGES_IN_REASONING_GRAPH": 0,
+  "TEST_EDGES_IN_REASONING_GRAPH": 0,
+  "MODEL_PARAMETER_CHANGED": false,
+  "PATH_METHOD": "SIGNED_EDGE_GRADIENT_BEAM_AVERAGE_LENGTH",
+  "PATH_GRADIENT_PASSES_RCDGATE": true,
+  "STAGE_3A0C_STATUS": "PASS",
+  "READY_FOR_STAGE_3A1": true,
+  "checks": {
+    "checkpoint_match": true,
+    "strict_load": true,
+    "parameter_count": true,
+    "train_count": true,
+    "directed_edge_count": true,
+    "edge_layer_count": true,
+    "edge_weights_leaf": true,
+    "edge_weights_independent": true,
+    "finite_difference": true,
+    "score_invariance": true,
+    "paths_present": true,
+    "path_membership": true,
+    "path_continuity": true,
+    "path_endpoints": true,
+    "path_hops": true,
+    "valid_leakage": true,
+    "test_leakage": true,
+    "parameters_unchanged": true,
+    "parameter_grads_clear": true,
+    "gradient_passes_rcdgate": true
+  }
+}

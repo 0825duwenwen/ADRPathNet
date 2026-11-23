@@ -1,0 +1,19 @@
+{
+  "checkpoint_sha256": "7e99b13d90f0c0fbff42304eaa92ae4e35316034bec7847c71dcc4dc0e568e08",
+  "checkpoint_match": true,
+  "strict_load": "ALL_KEYS_MATCHED",
+  "parameter_count": 103622,
+  "checkpoint_epoch": 7,
+  "checkpoint_valid_MRR": 0.6493918835350233,
+  "device": "cuda",
+  "num_layers": 5,
+  "num_beam": 10,
+  "path_topk": 10,
+  "stage3a0c_preflight_gate": {
+    "READY_FOR_STAGE_3A1": true,
+    "STAGE_3A0C_STATUS": "PASS",
+    "CHECKPOINT_MATCH": true,
+    "EDGE_WEIGHT_AUTOGRAD_INDEPENDENT": true,
+    "PATH_GRADIENT_PASSES_RCDGATE": true
+  }
+}

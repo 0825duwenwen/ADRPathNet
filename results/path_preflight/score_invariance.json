@@ -1,0 +1,18 @@
+[
+  {
+    "query_id": "QUERY_1",
+    "normal_score": 2.4083750247955322,
+    "path_mode_score": 2.4083759784698486,
+    "abs_score_diff": 9.5367431640625e-07,
+    "tolerance": 1e-06,
+    "passed": true
+  },
+  {
+    "query_id": "QUERY_2",
+    "normal_score": 2.5328755378723145,
+    "path_mode_score": 2.532876491546631,
+    "abs_score_diff": 9.5367431640625e-07,
+    "tolerance": 1e-06,
+    "passed": true
+  }
+]

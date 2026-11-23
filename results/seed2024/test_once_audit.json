@@ -1,0 +1,31 @@
+{
+  "version": "0.2.1-final",
+  "status": "PASS_RCDGATE_TEST_ONCE_COMPLETE",
+  "test_once": true,
+  "checkpoint_path": "/root/adr_path_reasoning_project/output/PVKG_811_CauseTailADR/MultiSeed_v1/RCDGate/seed2024/best_valid_adr_mrr.pth",
+  "checkpoint_sha256_before": "21f1ad1f0031ae1aaf7ca19fd6c1970d32ebca96634974ff2d1f56f1d45045cb",
+  "test_split_loaded": true,
+  "test_evaluated": true,
+  "data_counts": {
+    "train": 65148,
+    "test": 6170,
+    "all_true": 77488,
+    "adr_candidates": 1460
+  },
+  "data_formats": {
+    "train": "integer_ids",
+    "test": "integer_ids",
+    "all_true": "names"
+  },
+  "checkpoint_sha256_after": "21f1ad1f0031ae1aaf7ca19fd6c1970d32ebca96634974ff2d1f56f1d45045cb",
+  "checkpoint_unchanged": true,
+  "model_state_sha256_before": "28caf1abfa9f643b432cc7a48f15a5500c0ca0cf16e8a1a7d608f98a0ba1af76",
+  "model_state_sha256_after": "28caf1abfa9f643b432cc7a48f15a5500c0ca0cf16e8a1a7d608f98a0ba1af76",
+  "model_state_unchanged": true,
+  "checkpoint_load_strict": true,
+  "parameter_count": 103622,
+  "optimizer_created": false,
+  "training_performed": false,
+  "test_evaluation_count": 1,
+  "result_path": "/root/adr_path_reasoning_project/output/PVKG_811_CauseTailADR/MultiSeed_v1/RCDGate-Stage2/seed2024_test_once/test_once_results.json"
+}

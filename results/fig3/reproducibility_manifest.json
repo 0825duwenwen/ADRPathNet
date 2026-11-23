@@ -1,0 +1,37 @@
+{
+  "display_edge_k": 8,
+  "inputs": {
+    "/root/adr_path_reasoning_project/baselines/adr_rcdgate_path_v0.2.1/ADR-RCDGate_PathExtraction_v0.2.1/adr_rcdgate_path/attribution.py": "13754828715a03bbed99e6bd5d56c8a265fbdf2a2be324847d7f5996ab3f7cca",
+    "/root/adr_path_reasoning_project/data/nbfnet/PVKG_811_CauseTailADR/entity2id.json": "84aa3cdfcb4bbd57b0986e902936f4e833b7719a5deb47ca4711c6d51df82502",
+    "/root/adr_path_reasoning_project/data/nbfnet/PVKG_811_CauseTailADR/relation2id.json": "15d04333df17b8280110dcaef732acd9f1f5045a8be4238cfe1511bc6d21a717",
+    "/root/adr_path_reasoning_project/data/nbfnet/PVKG_811_CauseTailADR/test_id.txt": "0f639f51eb3d84653318bad448de8d50f6f9f1058b6086eada24842b48d043b7",
+    "/root/adr_path_reasoning_project/data/nbfnet/PVKG_811_CauseTailADR/train_id.txt": "83a4a0a25666c5c2e43117d9a8453200faade1231e6993747bbd7bb0fa4244e5",
+    "/root/adr_path_reasoning_project/data/nbfnet/PVKG_811_CauseTailADR/valid_id.txt": "607d0c4544d8596bfb0a7afac8c1bf2ada869b5b691abff37fcfb3f596cf6f5c",
+    "/root/adr_path_reasoning_project/output/PVKG_811_CauseTailADR/NBFNet-RCDGate-HParam/layers5_lr001_gate025_seed42_v0.2.1/best_valid_adr_mrr.pth": "7e99b13d90f0c0fbff42304eaa92ae4e35316034bec7847c71dcc4dc0e568e08",
+    "/root/adr_path_reasoning_project/output/PVKG_811_CauseTailADR/NBFNet-RCDGate-HParam/layers5_lr001_gate025_seed42_v0.2.1/config_snapshot.yaml": "1b7f2b6701b4a85a46586558627c3a05593aaf0e4dcdb905728f39f84265be6c",
+    "/root/adr_path_reasoning_project/output/PVKG_811_CauseTailADR/NBFNet-RCDGate-Path/stage3a1_12pair_seed42_v0.2.1/graph_audit.json": "8163e0b42004df96e3f580a03361b5c7e6bf2047fa48efdc8404f5c09ac70e11",
+    "/root/adr_path_reasoning_project/output/PVKG_811_CauseTailADR/NBFNet-RCDGate-Path/stage3a1_12pair_seed42_v0.2.1/path_integrity_audit.json": "9965698973918a0e5890a23bff2e3c22423ed9a503a0274696e064ca394d9e3b",
+    "/root/adr_path_reasoning_project/output/PVKG_811_CauseTailADR/NBFNet-RCDGate-Path/stage3a1_12pair_seed42_v0.2.1/paths_all.csv": "e21f84fefb467dd7cff2579b6b2a1ca50e6e72e5f3a7076f99b120f06ba64549",
+    "/root/adr_path_reasoning_project/output/PVKG_811_CauseTailADR/NBFNet-RCDGate-Path/stage3a1_12pair_seed42_v0.2.1/paths_all.json": "7efce77b866f0a5ef3841cd00cf19f55a6712b31cb83b398044456866b777937",
+    "/root/adr_path_reasoning_project/output/PVKG_811_CauseTailADR/NBFNet-RCDGate-Path/stage3a1_12pair_seed42_v0.2.1/queries_12_frozen_resolved.json": "550743772a773f7d0bf770fc5720f8b30275961bcce9adfcd48e485fec19fff2",
+    "/root/adr_path_reasoning_project/output/PVKG_811_CauseTailADR/NBFNet-RCDGate-Path/stage3a1_12pair_seed42_v0.2.1/stage3a1_summary.json": "967010249546fbf35d5e951e092159ecb891426ed67efff46092a6875ff75ceb"
+  },
+  "manual_semantic_edge_selection_used": false,
+  "optimizer_created": false,
+  "output_dir": "/root/adr_path_reasoning_project/output/PVKG_811_CauseTailADR/NBFNet-RCDGate-Path/stage3a1b_local_edge_attribution_seed42_v0.1.0",
+  "path_reconstruction_tolerance": 1e-05,
+  "representative_ranks": {
+    "Q04": 1,
+    "Q11": 1,
+    "Q12": 3
+  },
+  "script": "/root/adr_path_reasoning_project/baselines/adr_rcdgate_path_v0.2.1/ADR-RCDGate_PathExtraction_v0.2.1/scripts/stage3a1b_export_local_edge_attribution.py",
+  "script_sha256": "814a5d95ffde08072f1800b6e182c7fac4b40ee8d02e0869b3df55ebe74614d5",
+  "target_queries": [
+    "Q04",
+    "Q11",
+    "Q12"
+  ],
+  "training_performed": false,
+  "version": "0.1.0"
+}

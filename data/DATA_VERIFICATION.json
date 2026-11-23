@@ -1,0 +1,73 @@
+{
+  "status": "PASS",
+  "source_zip": "PVKG_811_CauseTailADR_for_BioPathNet_Stage0.zip",
+  "checks": {
+    "entities_13021": true,
+    "relations_match": true,
+    "split_counts": true,
+    "split_disjoint": true,
+    "no_duplicate_triples": true,
+    "all_true_exact_union": true,
+    "adr_unique_1460": true,
+    "adr_ids_match_entity_types": true,
+    "valid_test_causes_adr_only": true,
+    "train_relation_distribution": true,
+    "paper_hash_entity2id.json": true,
+    "paper_hash_relation2id.json": true,
+    "paper_hash_test_id.txt": true,
+    "paper_hash_train_id.txt": true,
+    "paper_hash_valid_id.txt": true,
+    "snapshot_bytes_entity2id.json": true,
+    "snapshot_bytes_relation2id.json": true,
+    "snapshot_bytes_adr_ids.txt": true,
+    "snapshot_bytes_dataset_stats.json": true
+  },
+  "files": [
+    {
+      "path": "data/DPIKG/entity2id.json",
+      "bytes": 476985,
+      "sha256": "84aa3cdfcb4bbd57b0986e902936f4e833b7719a5deb47ca4711c6d51df82502"
+    },
+    {
+      "path": "data/DPIKG/relation2id.json",
+      "bytes": 51,
+      "sha256": "15d04333df17b8280110dcaef732acd9f1f5045a8be4238cfe1511bc6d21a717"
+    },
+    {
+      "path": "data/DPIKG/adr_ids.txt",
+      "bytes": 6190,
+      "sha256": "2200155a62384cd04523f53eacaf8b49d80e87f4ca3ea129e0a7e5a91da1d92d"
+    },
+    {
+      "path": "data/DPIKG/train_id.txt",
+      "bytes": 767480,
+      "sha256": "83a4a0a25666c5c2e43117d9a8453200faade1231e6993747bbd7bb0fa4244e5"
+    },
+    {
+      "path": "data/DPIKG/valid_id.txt",
+      "bytes": 71791,
+      "sha256": "607d0c4544d8596bfb0a7afac8c1bf2ada869b5b691abff37fcfb3f596cf6f5c"
+    },
+    {
+      "path": "data/DPIKG/test_id.txt",
+      "bytes": 71671,
+      "sha256": "0f639f51eb3d84653318bad448de8d50f6f9f1058b6086eada24842b48d043b7"
+    },
+    {
+      "path": "data/DPIKG/all_true_triples.txt",
+      "bytes": 4082500,
+      "sha256": "62a88c4722653a87954dece9b0418c017f5782c12d4dea7e5315afbc4b2dcf30"
+    },
+    {
+      "path": "data/DPIKG/dataset_stats.json",
+      "bytes": 695,
+      "sha256": "8abede54528237b981121aee2c3ccd80529b066d591b133acaf7da7910bde1b7"
+    },
+    {
+      "path": "data/DPIKG/conversion_report.json",
+      "bytes": 3720,
+      "sha256": "94aa495d1014d1684e5dc5c7e5a1fac8c73d87fe66171a5feddb56bf02f097e7"
+    }
+  ],
+  "note": "Original bytes preserved; no resplitting or regenerated data"
+}

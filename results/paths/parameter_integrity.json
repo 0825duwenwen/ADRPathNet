@@ -1,0 +1,8 @@
+{
+  "model_state_sha256_before": "eb522e1627eb349e738b3a23a47565ae8956f69ba07bbf01a76ef35d33c7b818",
+  "model_state_sha256_after": "eb522e1627eb349e738b3a23a47565ae8956f69ba07bbf01a76ef35d33c7b818",
+  "model_parameter_changed": false,
+  "parameter_gradients_populated": false,
+  "optimizer_created": false,
+  "training_performed": false
+}

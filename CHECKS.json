@@ -1,0 +1,13 @@
+{
+  "python_syntax": "PASS",
+  "training_entry_help": "PASS",
+  "evaluation_entry_help": "PASS",
+  "gate_import_and_forward": "PASS",
+  "gate_parameter_count": 485,
+  "published_result_summary": "PASS",
+  "end_to_end_training_or_inference": "NOT_RUN: PyG/scatter/sparse and related dependencies missing; frozen seed42 checkpoint required only for exact paper attribution",
+  "credential_pattern_matches": [],
+  "original_result_files_unchanged": true,
+  "source_files": 113,
+  "dataset": "PASS: seven runtime files present; original split and mapping hashes verified"
+}

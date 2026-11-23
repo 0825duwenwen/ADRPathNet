@@ -1,0 +1,75 @@
+{
+  "input_dir": "D:\\adr_path_reasoning_project_full\\adr_path_reasoning_project\\data\\PVKG_811_CauseTailADR",
+  "output_dir": "D:\\adr_path_reasoning_project_full\\adr_path_reasoning_project\\data\\nbfnet\\PVKG_811_CauseTailADR",
+  "entity_dict": {
+    "file": "D:\\adr_path_reasoning_project_full\\adr_path_reasoning_project\\data\\PVKG_811_CauseTailADR\\entities.dict",
+    "format": "tab",
+    "name_column": 1,
+    "id_column": 0,
+    "original_total_lines": 13021,
+    "valid_entries": 13021,
+    "bad_lines": [],
+    "duplicate_name_count": 0,
+    "duplicate_name_examples": [],
+    "used_original_ids": true
+  },
+  "relation_dict": {
+    "file": "D:\\adr_path_reasoning_project_full\\adr_path_reasoning_project\\data\\PVKG_811_CauseTailADR\\relations.dict",
+    "format": "tab",
+    "name_column": 1,
+    "id_column": 0,
+    "original_total_lines": 3,
+    "valid_entries": 3,
+    "bad_lines": [],
+    "duplicate_name_count": 0,
+    "duplicate_name_examples": [],
+    "used_original_ids": true
+  },
+  "dataset_stats": {
+    "num_entities": 13021,
+    "num_relations": 3,
+    "num_train_triples": 65148,
+    "num_valid_triples": 6170,
+    "num_test_triples": 6170,
+    "num_all_true_triples": 77488,
+    "relation_distribution_train": {
+      "包含": 13952,
+      "引起": 49355,
+      "累及": 1841
+    },
+    "relation_distribution_valid": {
+      "引起": 6170
+    },
+    "relation_distribution_test": {
+      "引起": 6170
+    },
+    "valid_only_target_relation": true,
+    "test_only_target_relation": true,
+    "num_adrs": 1460,
+    "num_drugs": 7881,
+    "num_ingredients": 3651,
+    "num_organs": 29,
+    "output_dir": "D:\\adr_path_reasoning_project_full\\adr_path_reasoning_project\\data\\nbfnet\\PVKG_811_CauseTailADR"
+  },
+  "output_files": {
+    "train.txt": "D:\\adr_path_reasoning_project_full\\adr_path_reasoning_project\\data\\nbfnet\\PVKG_811_CauseTailADR\\train.txt",
+    "valid.txt": "D:\\adr_path_reasoning_project_full\\adr_path_reasoning_project\\data\\nbfnet\\PVKG_811_CauseTailADR\\valid.txt",
+    "test.txt": "D:\\adr_path_reasoning_project_full\\adr_path_reasoning_project\\data\\nbfnet\\PVKG_811_CauseTailADR\\test.txt",
+    "ADRs.list": "D:\\adr_path_reasoning_project_full\\adr_path_reasoning_project\\data\\nbfnet\\PVKG_811_CauseTailADR\\ADRs.list",
+    "all_true_triples.txt": "D:\\adr_path_reasoning_project_full\\adr_path_reasoning_project\\data\\nbfnet\\PVKG_811_CauseTailADR\\all_true_triples.txt",
+    "entity2id.json": "D:\\adr_path_reasoning_project_full\\adr_path_reasoning_project\\data\\nbfnet\\PVKG_811_CauseTailADR\\entity2id.json",
+    "relation2id.json": "D:\\adr_path_reasoning_project_full\\adr_path_reasoning_project\\data\\nbfnet\\PVKG_811_CauseTailADR\\relation2id.json",
+    "train_id.txt": "D:\\adr_path_reasoning_project_full\\adr_path_reasoning_project\\data\\nbfnet\\PVKG_811_CauseTailADR\\train_id.txt",
+    "valid_id.txt": "D:\\adr_path_reasoning_project_full\\adr_path_reasoning_project\\data\\nbfnet\\PVKG_811_CauseTailADR\\valid_id.txt",
+    "test_id.txt": "D:\\adr_path_reasoning_project_full\\adr_path_reasoning_project\\data\\nbfnet\\PVKG_811_CauseTailADR\\test_id.txt",
+    "adr_ids.txt": "D:\\adr_path_reasoning_project_full\\adr_path_reasoning_project\\data\\nbfnet\\PVKG_811_CauseTailADR\\adr_ids.txt",
+    "dataset_stats.json": "D:\\adr_path_reasoning_project_full\\adr_path_reasoning_project\\data\\nbfnet\\PVKG_811_CauseTailADR\\dataset_stats.json"
+  },
+  "checks": {
+    "all_triple_entities_mapped": true,
+    "all_triple_relations_mapped": true,
+    "all_adrs_mapped": true,
+    "valid_only_target_relation": true,
+    "test_only_target_relation": true
+  }
+}
